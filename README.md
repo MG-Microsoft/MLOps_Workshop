@@ -8,7 +8,7 @@ Complete implementation and explanation of this repository is recorded in these 
 
 For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com
 
-![ML Loop](./architecture/ml-loop.png)
+![ML Loop](./architecture/ml-loop.PNG)
 
 ##  MLOps Workflow
 
@@ -30,7 +30,7 @@ Azure Machine Learning provides the following MLOps capabilities:
 - **Monitor ML applications for operational and ML-related issues**. Compare model inputs between training and inference, explore model-specific metrics, and provide monitoring and alerts on your ML infrastructure.
 - **Automate the end-to-end ML lifecycle with Azure Machine Learning and Azure Pipelines**. Using pipelines allows you to frequently update models, test new models, and continuously roll out new ML models alongside your other applications and services.
 
-![ML Lifecycle](./architecture/ml-lifecycle.png)
+![ML Lifecycle](./architecture/ml-lifecycle.PNG)
 
 ##  Repository Guidline 
 
