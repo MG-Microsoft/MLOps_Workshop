@@ -32,15 +32,3 @@ Azure Machine Learning provides the following MLOps capabilities:
 
 ![ML Lifecycle](./architecture/ml-lifecycle.png)
 
-##  Repository Guidline 
-
-
-
-1. To become familiar with the ML Pipelines in Azure ML read this notebook: [MLPipeline_MNIST.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/MLPipeline_MNIST.ipynb)
-2. Then you need to integrate the ML Pipeline within your DevOps Build Pipeline. For that, check out this notebook: [Service-Principle-Login.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/Service-Principle-Login.ipynb)
-3. To find out the steps required in the Deployment time, check out this notebook: [DeployModel.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/DeployModel.ipynb)
-4. Then, it's time to work on your entire build and release Pipeline, for the instructions, read: [Create_Release_Pipeline_Instructions.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/Create_Release_Pipeline_Instructions.ipynb)
-5. Now, you have everything you needed. Check your release pipeline and enjoy it.
-A successful implementation of this repo will result in the following diagram.
-![MLOps Architecture](assets/MLOpsArchFlow.jpg)
-
