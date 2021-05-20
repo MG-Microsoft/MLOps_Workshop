@@ -16,7 +16,7 @@ Machine Learning Operations ([MLOps]( https://docs.microsoft.com/en-us/azure/mac
 
 This repository contains codes and guidelines for configuring the MLOps workflow with Azure as shown below:
 
-![Flow](./architecture/flow.png)
+![Flow](./architecture/flow.PNG)
 
 ##  MLOps with Azure Machine Learning 
 
@@ -30,7 +30,7 @@ Azure Machine Learning provides the following MLOps capabilities:
 - **Monitor ML applications for operational and ML-related issues**. Compare model inputs between training and inference, explore model-specific metrics, and provide monitoring and alerts on your ML infrastructure.
 - **Automate the end-to-end ML lifecycle with Azure Machine Learning and Azure Pipelines**. Using pipelines allows you to frequently update models, test new models, and continuously roll out new ML models alongside your other applications and services.
 
-![ML Lifecycle](./architecture/ml-lifecycle.PNG)
+![ML Lifecycle](./architecture/ml-lifecycle.png)
 
 ##  Repository Guidline 
 
