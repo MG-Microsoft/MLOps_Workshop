@@ -1,0 +1,31 @@
+framework: Python
+communicator: None
+autoPrepareEnvironment: true
+maxRunDurationSeconds:
+nodeCount: 1
+environment:
+  name: project_environment
+  python:
+    userManagedDependencies: false
+    interpreterPath: python
+    condaDependenciesFile: conda_dependencies.yml
+    baseCondaEnvironment:
+  docker:
+    enabled: true
+    baseImage: mcr.microsoft.com/azureml/base:intelmpi2018.3-ubuntu16.04
+    sharedVolumes: true
+    gpuSupport: false
+    shmSize: 1g
+    arguments: []
+history:
+  outputCollection: true
+  snapshotProject: true
+  directoriesToWatch:
+  - logs
+dataReferences:
+  workspaceblobstore:
+    dataStoreName: workspaceblobstore
+    pathOnDataStore: insurance
+    mode: download
+    overwrite: true
+    pathOnCompute: 
