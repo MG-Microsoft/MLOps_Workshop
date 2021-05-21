@@ -12,7 +12,7 @@ environment:
     baseCondaEnvironment:
   docker:
     enabled: true
-    baseImage: mcr.microsoft.com/azureml/base:intelmpi2018.3-ubuntu16.04
+    baseImage: mcr.microsoft.com/azureml/o16n-sample-user-base/ubuntu-miniconda
     sharedVolumes: true
     gpuSupport: false
     shmSize: 1g
