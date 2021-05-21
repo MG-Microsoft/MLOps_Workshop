@@ -37,8 +37,8 @@ def main():
     parser.add_argument(
         "--data_file_path",
         type=str,
-        help=("data file path, if specified,\
-               a new version of the dataset will be registered")
+        help=("data file path, if specified,a new version of the dataset will be registered"),
+        default="insurance",
     )
 
     parser.add_argument(
