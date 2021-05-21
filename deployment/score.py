@@ -13,7 +13,7 @@ from azureml.core.model import Model
 def init():
     global LGBM_MODEL
     # Load the model from file into a global object
-    model_path = Model.get_model_path("insurance_model.pkl")
+    model_path = Model.get_model_path("insurance_model")
     LGBM_MODEL = joblib.load(model_path)
     # Print statement for appinsights custom traces:
     print("model initialized" + time.strftime("%H:%M:%S"))
