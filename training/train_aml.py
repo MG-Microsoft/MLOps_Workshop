@@ -85,7 +85,7 @@ def main():
         else:
             dataset = register_dataset(run.experiment.workspace,
                                        dataset_name,
-                                       "trainingdata",
+                                       "workspaceblobstore",
                                        data_file_path)
     else:
         e = ("No dataset provided")
