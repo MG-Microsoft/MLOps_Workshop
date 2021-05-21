@@ -74,8 +74,8 @@ def main():
     # Log the training parameters
     print(f"Parameters: {train_args}")
     for (k, v) in train_args.items():
-        run.log_list(k, v)
-        run.parent.log_list(k, v)
+        run.log(k, v)
+        run.parent.log(k, v)
       
 
     # Get the dataset
