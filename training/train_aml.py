@@ -75,7 +75,7 @@ def main():
     print(f"Parameters: {train_args}")
     for (k, v) in train_args.items():
         run.log(k, v)
-        run.parent.log(k, v)
+        #run.parent.log(k, v)
       
 
     # Get the dataset
@@ -94,7 +94,7 @@ def main():
 
     # Link dataset to the step run so it is trackable in the UI
     run.input_datasets['training_data'] = dataset
-    run.parent.tag("dataset_id", value=dataset.id)
+    #run.parent.tag("dataset_id", value=dataset.id)
 
     # Split the data into test/train
     df = dataset.to_pandas_dataframe()
@@ -107,7 +107,7 @@ def main():
     metrics = get_model_metrics(model, data)
     for (k, v) in metrics.items():
         run.log(k, v)
-        run.parent.log(k, v)
+        #run.parent.log(k, v)
 
     # Also upload model file to run outputs for history
     os.makedirs('outputs', exist_ok=True)
