@@ -8,7 +8,7 @@ name: scoring_environment
 dependencies:
   # The python interpreter version.
   # Currently Azure ML only supports 3.5.2 and later.
-- python=3.6.12
+- python=3.7.*
 
 - pip:
   # Required packages for AzureML execution, history, and data preparation.
