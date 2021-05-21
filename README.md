@@ -6,7 +6,7 @@ This repository is created by [Mohammad Ghodratigohar]( https://www.linkedin.com
 Complete implementation and explanation of this repository is recorded in these video series:
 
 
-For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com
+For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com .
 
 ![ML Loop](./architecture/ml-loop.PNG)
 
