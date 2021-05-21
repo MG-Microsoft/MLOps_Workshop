@@ -23,5 +23,5 @@ dependencies:
 - scipy==1.5.4
 - pytest==6.1.2
 - pytest-cov==2.10.1
-- install inference-schema[numpy-support]==1.2.1
+- inference-schema[numpy-support]==1.2.1
 - lightgbm==3.2.1
