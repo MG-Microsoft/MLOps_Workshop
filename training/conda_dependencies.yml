@@ -35,6 +35,9 @@ dependencies:
       # Scoring deps
       - inference-schema[numpy-support]
 
+      # MLOps with R
+      - azure-storage-blob
+
       # LightGBM bosting lib
       - lightgbm
 

@@ -1,14 +1,14 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 # DevOps For Machine Learning | MLOps
-This repository is created by [Mohammad Ghodratigohar]( https://www.linkedin.com/in/mohammad-ghodratigohar/) for hands-on MLOps workshop using [Azure Machine Learning]( https://docs.microsoft.com/en-us/azure/machine-learning/) and [Azure DevOps]( https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts). 
+This repository is created by [Mohammad Ghodratigohar]( https://www.linkedin.com/in/mohammad-ghodratigohar/) for hands-on MLOps workshop using [Azure Machine Learning]( https://docs.microsoft.com/en-us/azure/machine-learning/)and [Azure DevOps]( https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts). 
 
-Complete implementation and explanation of this repository is recorded in these video series:
+Complete implementation and explanation of this repository is recorded in this tutorial video: (Coming Soon …)
 
 
-For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com .
+For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com
 
-![ML Loop](./architecture/ml-loop.PNG)
+![ML Loop](./architecture/ml-loop.png)
 
 ##  MLOps Workflow
 
@@ -16,7 +16,7 @@ Machine Learning Operations ([MLOps]( https://docs.microsoft.com/en-us/azure/mac
 
 This repository contains codes and guidelines for configuring the MLOps workflow with Azure as shown below:
 
-![Flow](./architecture/flow.PNG)
+![Flow](./architecture/flow.png)
 
 ##  MLOps with Azure Machine Learning 
 
@@ -31,4 +31,17 @@ Azure Machine Learning provides the following MLOps capabilities:
 - **Automate the end-to-end ML lifecycle with Azure Machine Learning and Azure Pipelines**. Using pipelines allows you to frequently update models, test new models, and continuously roll out new ML models alongside your other applications and services.
 
 ![ML Lifecycle](./architecture/ml-lifecycle.png)
+
+##  Repository Guidline 
+
+
+
+1. To become familiar with the ML Pipelines in Azure ML read this notebook: [MLPipeline_MNIST.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/MLPipeline_MNIST.ipynb)
+2. Then you need to integrate the ML Pipeline within your DevOps Build Pipeline. For that, check out this notebook: [Service-Principle-Login.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/Service-Principle-Login.ipynb)
+3. To find out the steps required in the Deployment time, check out this notebook: [DeployModel.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/DeployModel.ipynb)
+4. Then, it's time to work on your entire build and release Pipeline, for the instructions, read: [Create_Release_Pipeline_Instructions.ipynb](https://github.com/classicboyir/build-release-ci-cd/blob/master/Create_Release_Pipeline_Instructions.ipynb)
+5. Now, you have everything you needed. Check your release pipeline and enjoy it.
+A successful implementation of this repo will result in the following diagram.
+![MLOps Architecture](assets/MLOpsArchFlow.jpg)
+
 
