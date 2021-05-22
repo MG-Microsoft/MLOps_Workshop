@@ -3,12 +3,12 @@
 # DevOps For Machine Learning | MLOps
 This repository is created by [Mohammad Ghodratigohar]( https://www.linkedin.com/in/mohammad-ghodratigohar/) for hands-on MLOps workshop using [Azure Machine Learning]( https://docs.microsoft.com/en-us/azure/machine-learning/)and [Azure DevOps]( https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts). 
 
-Complete implementation and explanation of this repository is recorded in this tutorial video: (Coming Soon …)
+Complete implementation and explanation of this repository is recorded in this tutorial video: (Coming Soon â€¦)
 
 
 For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com
 
-![ML Loop](./architecture/ml-loop.png)
+![ML Loop](./architecture/ml-loop.PNG)
 
 ##  MLOps Workflow
 
@@ -16,7 +16,7 @@ Machine Learning Operations ([MLOps]( https://docs.microsoft.com/en-us/azure/mac
 
 This repository contains codes and guidelines for configuring the MLOps workflow with Azure as shown below:
 
-![Flow](./architecture/flow.png)
+![Flow](./architecture/flow.PNG)
 
 ##  MLOps with Azure Machine Learning 
 
