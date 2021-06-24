@@ -3,8 +3,19 @@
 # DevOps For Machine Learning | MLOps
 This repository is created by [Mohammad Ghodratigohar]( https://www.linkedin.com/in/mohammad-ghodratigohar/) for hands-on MLOps workshop using [Azure Machine Learning]( https://docs.microsoft.com/en-us/azure/machine-learning/) and [Azure DevOps]( https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts). 
 
-Complete implementation and explanation of this repository is recorded in these tutorial video series:
+Complete implementation and explanation of this repository is recorded in these 10 part tutorial video series:
 [Azure MLOps Video Series Playlist](https://www.youtube.com/playlist?list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f)
+
+[Part1](https://www.youtube.com/watch?v=-QxwB7PoSdA&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=3)
+[Part2](https://www.youtube.com/watch?v=Gzjr716RU9g&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=3)
+[Part3](https://www.youtube.com/watch?v=L-nIreup0HQ&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=1)
+[Part4]
+[Part5]
+[Part6]
+[Part7]
+[Part8]
+[Part9]
+[Part10]
 
 
 For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com .
