@@ -46,3 +46,6 @@ dependencies:
 
       # Job lib- whatever I don't know what we use it for
       - joblib
+      
+      #pandas
+      - pandas==1.1.3
