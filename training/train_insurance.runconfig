@@ -12,7 +12,7 @@ environment:
     baseCondaEnvironment:
   docker:
     enabled: true
-    baseImage: mcr.microsoft.com/azureml/o16n-sample-user-base/ubuntu-miniconda
+    baseImage: mcr.microsoft.com/azureml/lightgbm-3.2-ubuntu18.04-py37-cpu-inference:latest
     sharedVolumes: true
     gpuSupport: false
     shmSize: 1g
