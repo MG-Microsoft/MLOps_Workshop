@@ -2,7 +2,7 @@ pr: none
 trigger: none
 
 variables:
-- group: mlops-wsh-vg
+- group: mlops-wsh-vg-fca
 
 stages:
 - stage: 'Dev'
