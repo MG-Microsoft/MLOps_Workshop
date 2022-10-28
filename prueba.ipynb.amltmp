@@ -19,11 +19,17 @@
       "metadata": {
         "gather": {
           "logged": 1666983722376
+        },
+        "vscode": {
+          "languageId": "r"
         }
       }
     }
   ],
   "metadata": {
+    "kernel_info": {
+      "name": "python38-azureml"
+    },
     "kernelspec": {
       "name": "python38-azureml",
       "language": "python",
@@ -41,18 +47,15 @@
       "nbconvert_exporter": "python",
       "file_extension": ".py"
     },
-    "kernel_info": {
-      "name": "python38-azureml"
-    },
-    "nteract": {
-      "version": "nteract-front-end@1.0.0"
-    },
     "microsoft": {
       "host": {
         "AzureML": {
           "notebookHasBeenCompleted": true
         }
       }
+    },
+    "nteract": {
+      "version": "nteract-front-end@1.0.0"
     }
   },
   "nbformat": 4,
